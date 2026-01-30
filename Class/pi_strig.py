@@ -12,3 +12,9 @@ for line in lines:
 # print(pi_string)
 print(f"{pi_string[:52]}...")
 print(len(pi_string))
+
+birthday = input("Enter your birthday, in the form yymmdd: ") 
+if birthday in pi_string:
+    print("있어!")
+else:
+    print("100만개에는 없네.")
